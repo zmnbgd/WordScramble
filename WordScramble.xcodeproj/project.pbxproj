@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A2AEE55F2D58DCCC0067E7DF /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = A2AEE55E2D58DCCC0067E7DF /* start.txt */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		A23B98992D4D11FA00EB46D3 /* WordScramble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordScramble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2AEE55E2D58DCCC0067E7DF /* start.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		A23B98902D4D11FA00EB46D3 = {
 			isa = PBXGroup;
 			children = (
+				A2AEE55E2D58DCCC0067E7DF /* start.txt */,
 				A23B989B2D4D11FA00EB46D3 /* WordScramble */,
 				A23B989A2D4D11FA00EB46D3 /* Products */,
 			);
@@ -109,6 +115,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2AEE55F2D58DCCC0067E7DF /* start.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
