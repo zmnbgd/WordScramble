@@ -51,7 +51,9 @@ struct ContentView: View {
     func addNewWord() {
         let answer = newWord.lowercased().trimmingCharacters(in: .whitespacesAndNewlines)
         
-        guard answer.count > 0 else { return }
+//        guard answer.count > 0 else { return }
+        //MARk: - Challenge: 1. Word Scramble: Disallow answers that are shorter than three letters or are just our start word.
+        guard answer.count > 3 else { return }
         
         //MARK: Extra validation to come
         guard isOriginal(word: answer) else {
