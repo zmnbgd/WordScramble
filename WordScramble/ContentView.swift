@@ -45,6 +45,10 @@ struct ContentView: View {
             } message: {
                 Text(errorMessage)
             }
+            //MARK: Challenge. - 1. Word Scramble - Add a toolbar button that calls startGame(), so users can restart with a new word whenever they want to.
+            .toolbar {
+                Button("New game", action: startGame)
+            }
         }
     }
     
